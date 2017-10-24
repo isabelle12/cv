@@ -1,0 +1,130 @@
+#rose{height:300px;
+
+background-color:#FAF5F5;
+ }
+
+#rose_deux{height:150px;
+
+background-color:#FAF5F5;
+
+}
+
+#rose_trois{height:70px;
+
+background-color:#FAF5F5;
+margin-right:20px; 
+}
+
+#rose_quatre{height:30px;
+
+background-color:#FAF5F5;
+}
+
+.container{padding-top:10px;}
+
+img{width:100px;}
+
+p{font-size:20px;}
+
+.entier{position:relative;
+margin-bottom:100px;}
+
+main{padding-top:20px;
+margin-left:auto;
+margin-right:auto;}
+
+@font-face {
+  font-family: "birth of a hero";
+  src: url("BIRTH_OF_A_HERO.ttf");
+}
+
+
+
+#paradeux{position:absolute;
+top:20px;
+margin-bottom:0px;
+left:30px;
+font-family: "birth of a hero", serif;
+letter-spacing:10px;}
+
+aside{
+	background-color:#FAF5F5;
+	border-radius:40px;
+	padding-left:20px;
+  margin-bottom:1rem;
+	}
+	
+	.rose{
+	background-color:#FAF5F5;
+	margin-bottom:20px;
+	}
+	
+	progress::-moz-progress-bar{
+    border-radius:10px;
+    background: white;
+    background-color:white;
+    background: 
+      -moz-repeating-linear-gradient(
+        45deg, 
+        white 0,
+        white 10px, 
+        white 10px,
+        white 20px
+      ),
+      -moz-linear-gradient(
+        white 50%,
+        white 60%
+      ),
+      white;
+    background: 
+      repeating-linear-gradient(
+        45deg, 
+        #F7C6C6 0,
+        #F3B0B0 10px, 
+        #F3B0B0 10px,
+        #F39D9D 20px
+      ),
+      linear-gradient(
+        white 50%,
+        white 60%
+      ),
+      white;
+    background-size: 300px 20px, auto, auto;
+    background-position: -300px 0, top, top;
+    background-position: top right, top, top;
+    box-shadow: 0 1px 0 white inset, 
+                0 -1px 0 white inset,
+                0 0 2px black;
+  }
+  article{background-color:#FAF5F5;
+  margin-left:20px;
+  border-radius:40px;
+  padding-left:20px;}
+  
+  .competences{
+  border-radius:40px;}
+  
+ .container{margin-left:auto;
+ margin-right:auto;}
+ 
+ .entier_deux{padding-left:20px;}
+ 
+ .marge{margin-bottom:20px;
+ }
+ 
+ @media only screen and (max-width:990px){
+ 
+ .disp{display:none;}
+ #rose_trois{display:none;}
+ #rose_quatre{display:none;}
+ }
+ 
+ @media only screen and (max-width:768px){
+ 
+ .entier{position:relative;
+margin-bottom:30px;}
+ }
+ 
+
+ 
+ 
